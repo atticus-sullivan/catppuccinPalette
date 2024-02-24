@@ -22,3 +22,7 @@ The file `catppuccinPalette.sty` will be generated.
 
 The file `catppuccinPalette.sty` is the only file necessary to use the latex packet `catppuccinPalette`. 
 You have to put it in the same directory as your document or (best) in a `texmf` tree. 
+
+Simplified version:
+
+* run `l3build unpack` to generate the `.sty` in `build/unpacked/`
