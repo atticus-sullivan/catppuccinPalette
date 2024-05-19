@@ -14,24 +14,24 @@
 %
 % The Current Maintainer of this work is Lukas Heindl.
 %
-% This work consists of the files catppuccinPalette.dtx and catppuccinPalette.ins
-% and the derived filebase catppuccinPalette.sty.
+% This work consists of the files catppuccinpalette.dtx and catppuccinpalette.ins
+% and the derived filebase catppuccinpalette.sty.
 %
 % \fi
 %
 % \iffalse
 %<*driver>
-\ProvidesFile{catppuccinPalette.dtx}
+\ProvidesFile{catppuccinpalette.dtx}
 %</driver>
 %<package>\NeedsTeXFormat{LaTeX2e}[1999/12/01]
-%<package>\ProvidesPackage{catppuccinPalette}
+%<package>\ProvidesPackage{catppuccinpalette}
 %<*package>
-    [2024/02/27 v1.0.0 catppuccin xcolor palette]
+    [2024/02/27 v1.0.1 catppuccin xcolor palette]
 %</package>
 %
 %<*driver>
 \documentclass{ltxdoc}
-\usepackage{catppuccinPalette}[2024/02/27]
+\usepackage{catppuccinpalette}[2024/02/27]
 \usepackage{multicol}
 \usepackage{pgffor}
 \usepackage{tabularx, booktabs}
@@ -39,7 +39,7 @@
 \CodelineIndex
 \RecordChanges
 \begin{document}
-  \DocInput{catppuccinPalette.dtx}
+  \DocInput{catppuccinpalette.dtx}
   \PrintChanges
   \PrintIndex
 \end{document}
@@ -67,11 +67,12 @@
 %
 % \changes{v0.0.1}{2024/02/09}{Converted to DTX file}
 % \changes{v1.0.0}{2024/02/27}{First full release}
+% \changes{v1.0.1}{2024/05/19}{Make fit for CTAN}
 %
 % \DoNotIndex{\newcommand,\newenvironment,\color,\colorlet,\def,\fi,\RequirePackage,\ProvidesPackage,\ProcessPgfOptions,\preparecolorset,\pgfkeys,\pagecolor,\newif,\NeedsTeXFormat}
 %
 % \providecommand*{\url}{\texttt}
-% \GetFileInfo{catppuccinPalette.dtx}
+% \GetFileInfo{catppuccinpalette.dtx}
 % \title{The \textsf{catppuccinPalette} package}
 % \author{Lukas Heindl \\ \url{oss.heindl+latex@protonmail.com} \\ \url{https://github.com/atticus-sullivan/catpuccinPalette}}
 % \date{\fileversion~from \filedate}
@@ -90,6 +91,8 @@
 % colors.
 %
 % \section{Usage}
+%
+% Load via |\usepackage{catppuccinpalette}|
 %
 % Just use the new colors (prefixed with \verb|Cat<Style>|) like normal xcolors.
 % In addition to the usual colors of the palette, this package defines some

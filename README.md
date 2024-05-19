@@ -15,12 +15,12 @@ The LaTeX package `catppuccinPalette` provides new colors for xcolor.
 
 For a manual installation:
 
-* put the files `catppuccinPalette.ins` and `catppuccinPalette.dtx` in the same directory;
-* run `latex catppuccinPalette.ins` in that directory.
+* put the files `catppuccinpalette.ins` and `catppuccinpalette.dtx` in the same directory;
+* run `latex catppuccinpalette.ins` in that directory.
 
-The file `catppuccinPalette.sty` will be generated.
+The file `catppuccinpalette.sty` will be generated.
 
-The file `catppuccinPalette.sty` is the only file necessary to use the latex packet `catppuccinPalette`. 
+The file `catppuccinpalette.sty` is the only file necessary to use the latex package `catppuccinPalette`. 
 You have to put it in the same directory as your document or (best) in a `texmf` tree. 
 
 Simplified version:
