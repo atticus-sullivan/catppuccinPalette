@@ -2,7 +2,7 @@
 
 Author: Lukas Heindl (`oss.heindl+latex@protonmail.com`).
 
-CTAN page: not yet
+CTAN page: [catppuccinPalette](https://ctan.org/pkg/catppuccinpalette)
 
 ## License
 The LaTeX package `catppuccinPalette` is distributed under the LPPL 1.3 license.
